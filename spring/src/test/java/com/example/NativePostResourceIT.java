@@ -1,9 +1,9 @@
 package com.example;
 
-import io.quarkus.test.junit.NativeImageTest;
+import io.quarkus.test.junit.QuarkusIntegrationTest;
 
-@NativeImageTest
-public class NativePostResourceIT extends PostResourceTest {
+@QuarkusIntegrationTest
+public class NativePostResourceIT extends IntegrationTest {
 
     // Execute the same tests but in native mode.
 }
